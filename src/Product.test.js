@@ -19,4 +19,10 @@ describe('Product.js', () => {
         const div = wrapper.find('div');
         expect(div.at(1).text()).toEqual(`Brand: ${props.product.brand}`);
     })
+    it('should display cart button ',  () => {
+        const wrapper = shallow(<Product {...props} />);
+        const button = wrapper.find('button');
+        expect(button.length).toEqual(1);
+        expect(button.text()).toEqual('Add to cart');
+    })
 });
