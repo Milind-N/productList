@@ -2,7 +2,7 @@ import React from 'react';
 import ProductList from './ProductList';
 
 function App() {
-  const products = [{name: 'iphone'}, {name: 'LED TV'}, {name: 'Dishwasher'}];
+  const products = [{name: 'iphone', brand: 'Apple'}, {name: 'LED TV', brand: 'LG'}, {name: 'Dishwasher', brand: 'Bosch'}];
   return (
     <div className="App">
       <header className="App-header">
