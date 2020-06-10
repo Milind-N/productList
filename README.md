@@ -1,10 +1,10 @@
 This project will display Product List and name, brand and Cart button for each product.
-The application is structure is as below
--App
---ProductList
----Name
----Brand
----Cart Button
+The application is structure is as below<br />
+-App<br />
+--ProductList<br />
+---Name<br />
+---Brand<br />
+---Cart Button<br />
 
 ## Available Scripts
 
